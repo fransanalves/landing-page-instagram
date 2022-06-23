@@ -19,6 +19,7 @@ body {
 .instagram-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 34px 130px 0 0;
 }
 .instagram-phones {
@@ -49,8 +50,6 @@ body {
     border: 1px solid #ccc;
     background-color: #fff;
     border-radius: 2px;
-    margin-top: 28px;
-    
 }
 .instagram-form {
     margin: 0 54px 6px;
@@ -81,8 +80,27 @@ body {
     padding-top: 10px;
     color: #829191;
 }
-.choose {
-    padding: 10px;
+.text-choose {
+    display: flex;
+    align-items: center;
+}
+.text-choose::after {
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #eee;
+    position: relative;
+    margin-left: 10px;
+
+}
+.text-choose::before {
+    content: "";
+    width: 140px;
+    height: 2px;
+    background-color: #eee;
+    position: relative;
+    margin-right: 10px;
+
 }
 .facebook-login {
     display: flex;
